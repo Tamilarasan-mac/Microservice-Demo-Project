@@ -1,13 +1,13 @@
 server:
-  port: 8761
+  port: 8081
 
 spring:
   application:
-    name: service-registry
+    name: user-service
 
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
-  server:
-    wait-time-in-ms-when-sync-empty: 0
+    service-url:
+      defaultZone: http://service-registry:8761/eureka/
+  instance:
+    prefer-ip-address: true

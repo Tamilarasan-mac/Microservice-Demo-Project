@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.discovery-server' is invalid and this project uses 'com.example.discovery_server' instead.
+* The original package name 'com.example.user-service' is invalid and this project uses 'com.example.user_service' instead.
 
 # Getting Started
 
@@ -12,7 +12,7 @@ For further reference, please consider the following sections:
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/4.0.5/maven-plugin)
 * [Create an OCI image](https://docs.spring.io/spring-boot/4.0.5/maven-plugin/build-image.html)
 * [Spring Web](https://docs.spring.io/spring-boot/4.0.5/reference/web/servlet.html)
-* [Eureka Server](https://docs.spring.io/spring-cloud-netflix/reference/spring-cloud-netflix.html#spring-cloud-eureka-server)
+* [Eureka Discovery Client](https://docs.spring.io/spring-cloud-netflix/reference/spring-cloud-netflix.html#_service_discovery_eureka_clients)
 
 ### Guides
 The following guides illustrate how to use some features concretely:
